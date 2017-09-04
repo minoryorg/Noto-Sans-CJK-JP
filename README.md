@@ -1,7 +1,7 @@
 # Noto Sans CJK JP（Japanese）
 サブセット化済みの「Noto Sans CJK JP」のCSS付きWebフォント  
 
-##Google Webフォントのダウンロード
+## Google Webフォントのダウンロード
 [http://www.google.com/get/noto/#/family/noto-sans-jpan](http://www.google.com/get/noto/#/family/noto-sans-jpan)  
 
 ## WOFFコンバータ
@@ -24,3 +24,15 @@
 [http://opentype.jp/subsetfontmk.htm](http://opentype.jp/subsetfontmk.htm)  
 サブセットフォントメーカーを使用して、アスキー文字 + 非漢字文字 + 第1水準漢字でサブセット化し、ファイルサイズを削減します。  
 約16MBあるファイルサイズが700KBにまで減少します。
+
+## CSSの書き方
+```c
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/NotoSansCJKjp-Thin.woff2') format('woff2'),
+	       url('../fonts/NotoSansCJKjp-Thin.woff') format('woff'),
+	       url('../fonts/NotoSansCJKjp-Thin.ttf')  format('truetype'),
+         url('../fonts/NotoSansCJKjp-Thin.eot') format('embedded-opentype');
+```
