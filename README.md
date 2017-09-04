@@ -32,7 +32,7 @@
     font-style: normal;
     font-weight: 100;
     src: url('../fonts/NotoSansCJKjp-Thin.woff2') format('woff2'),
-	       url('../fonts/NotoSansCJKjp-Thin.woff') format('woff'),
-	       url('../fonts/NotoSansCJKjp-Thin.ttf')  format('truetype'),
+         url('../fonts/NotoSansCJKjp-Thin.woff') format('woff'),
+         url('../fonts/NotoSansCJKjp-Thin.ttf')  format('truetype'),
          url('../fonts/NotoSansCJKjp-Thin.eot') format('embedded-opentype');
 ```
