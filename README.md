@@ -41,8 +41,8 @@ Google先生から日本語フォントをダウンロード。
          url('../fonts/NotoSansCJKjp-Thin.ttf')  format('truetype'),
          url('../fonts/NotoSansCJKjp-Thin.eot') format('embedded-opentype');
 ```
-* font-family : CSSで指定する名前（短い方がスマート）
-* font-style  : CSSで指定するスタイル（normal固定）
-* font-weight : CSSで指定する文字の太さ（100～900）
-* src         : フォントファイルのディレクトリパス（各ブラウザに対応）
+* font-family：CSSで指定する名前（短い方がスマート）
+* font-style：CSSで指定するスタイル（normal固定）
+* font-weight：CSSで指定する文字の太さ（100～900）
+* src：フォントファイルのディレクトリパス（各ブラウザに対応）
 
