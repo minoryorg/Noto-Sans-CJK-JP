@@ -1,6 +1,6 @@
 # Noto Sans CJK JP（Japanese）
-サブセット化済みの「Noto Sans CJK JP」（日本語フォント）のCSS付きWebフォント  
-[サンプルはこちら](https://minoryorg.github.io/Noto-Sans-CJK-JP/)
+サブセット化済みの「Noto Sans CJK JP」（日本語フォント）のCSS付きWebフォント  
+[サンプルはこちら](https://minoryorg.github.io/Noto-Sans-CJK-JP/)  
 
 ## Google Webフォントのダウンロード
 [http://www.google.com/get/noto/#/family/noto-sans-jpan](http://www.google.com/get/noto/#/family/noto-sans-jpan)  
