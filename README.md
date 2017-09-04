@@ -13,12 +13,12 @@
 * woff
 
 ### 各ブラウザの対応フォーマット
-|     | Chrome | Firefox | Opera | Safari | IE / Edge |
-|:---:|:------:|:--- ---:|:-----:|:------:|:---------:|
-| TTF / OTF | 4 | 3.5 | 10 | 3.1 | 9[1] |
-| WOFF | 5 | 3.6 | 11.10 | 5.1 | 9 |
-| WOFF2 | 36 | 39 | 23 | 10 | Not supported |
-| EOT | Not supported | Not supported | Not supported | Not supported | 6 |
+|フォーマット|Chrome|Firefox|Opera|Safari|IE/Edge|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|TTF/OTF|4|3.5|10|3.1|9[1]|
+|WOFF|5|3.6|11.10|5.1|9|
+|WOFF2|36|39|23|10|Notsupported|
+|EOT|Notsupported|Notsupported|Notsupported|Notsupported|6|
 
 ## サブセット化
 [http://opentype.jp/subsetfontmk.htm](http://opentype.jp/subsetfontmk.htm)  
