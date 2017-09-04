@@ -1,8 +1,12 @@
 # Noto Sans CJK JP（Japanese）
-サブセット化済みの「Noto Sans CJK JP」のCSS付きWebフォント  
+サブセット化済みの「Noto Sans CJK JP」（日本語フォント）のCSS付きWebフォント  
 
 ## Google Webフォントのダウンロード
 [http://www.google.com/get/noto/#/family/noto-sans-jpan](http://www.google.com/get/noto/#/family/noto-sans-jpan)  
+Google先生から日本語フォントをダウンロード。  
+ちなみに、Noto Sans「Noto」とは、  
+> コンピューターで表示できない文字がある場合、文字の代わりに小さい四角(□)、通称"豆腐"が表示されることが多いが、すべての言語に対応したフォントを開発することで"豆腐"が現れることがなくなるようにという意味を込めてNoto(no more tofu)という名称が付けられた。  
+らしい...。  
 
 ## WOFFコンバータ
 [http://opentype.jp/woffconv.htm](http://opentype.jp/woffconv.htm)  
@@ -36,3 +40,8 @@
          url('../fonts/NotoSansCJKjp-Thin.ttf')  format('truetype'),
          url('../fonts/NotoSansCJKjp-Thin.eot') format('embedded-opentype');
 ```
+* font-family：CSSで指定する名前（短い方がスマート）
+* font-style ：CSSで指定するスタイル（normal固定）
+* font-weight：CSSで指定する文字の太さ（100～900）
+* src        ：フォントファイルのディレクトリパス（各ブラウザに対応）
+
